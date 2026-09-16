@@ -87,7 +87,13 @@ for p in posts:
  if proj:context=f'<a href="../projects/{proj["slug"]}.html">{proj["name"]} ↗</a>'
  elif fcm:context=f'<a href="../projects/{fcm["slug"]}.html">{fcm["title_kr"]} ↗</a>'
  else:context='<a href="../projects.html">프로젝트를 잇는 생각 ↗</a>'
- page(f'posts/{p["slug"]}.html',p['title'],f'<a class="back" href="../writing.html">← 모든 글</a><article class="reading"><div class="eyebrow">{p["kind"]} · {p["date"]}</div><h1>{p["title"]}</h1><p class="dek">{p["desc"]}</p><div class="article-context">{context}</div><div class="prose">{md(p["body"])}</div><div class="article-end"><h2>이어지는 주제</h2><div class="tags">'+''.join(f'<a href="../topics.html#{t}">{t}</a>' for t in p['tags'])+'</div></div></article>','글')
+ # Per-post outputs (산출물): public ones link out, private ones are named but not linked.
+ outs=p.get('outputs',[])
+ outs_html=''
+ if outs:
+  items=''.join(f'<p><a class="external" href="{o["url"]}">{o["label"]} ↗</a></p>' if o.get('url') and not o.get('private') else f'<p>{o["label"]} <span class="private-mark">비공개</span></p>' for o in outs)
+  outs_html=f'<section class="outputs"><h2>이 글의 산출물</h2>{items}</section>'
+ page(f'posts/{p["slug"]}.html',p['title'],f'<a class="back" href="../writing.html">← 모든 글</a><article class="reading"><div class="eyebrow">{p["kind"]} · {p["date"]}</div><h1>{p["title"]}</h1><p class="dek">{p["desc"]}</p><div class="article-context">{context}</div><div class="prose">{md(p["body"])}</div>{outs_html}<div class="article-end"><h2>이어지는 주제</h2><div class="tags">'+''.join(f'<a href="../topics.html#{t}">{t}</a>' for t in p['tags'])+'</div></div></article>','글')
 page('topics.html','주제','<section class="page-heading"><div class="eyebrow">CONNECTIONS</div><h1>주제로 이어 읽기</h1><p>하나의 질문이 여러 프로젝트를 만나는 자리.</p></section>'+''.join(f'<section class="topic" id="{t}"><h2>{t}</h2>{rows([p for p in posts if t in p["tags"]])}</section>' for t in ['정보구조','주의집중','글쓰기','디자인','접근성']),'주제')
 page('404.html','페이지를 찾을 수 없습니다','<section class="page-heading"><h1>페이지를 찾을 수 없습니다.</h1><p>주소가 바뀌었거나 아직 없는 기록입니다.</p><a href="index.html">홈으로 돌아가기 →</a></section>')
 (OUT/'.nojekyll').touch()
