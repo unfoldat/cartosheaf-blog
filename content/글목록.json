@@ -1,5 +1,17 @@
 [
   {
+    "slug": "tactile-paving-30cm-claim",
+    "title": "점자블록 30cm 클레임, 규정과 가이드라인 사이에서",
+    "project": "tactile-paving-30cm",
+    "kind": "검증",
+    "tags": [
+      "접근성"
+    ],
+    "desc": "\"점자블록 양옆 30cm 여유 공간이 법으로 정해져 있다\"는 문장을 법령 원문까지 따라가 확인했다.",
+    "file": "검증_점자블록30cm클레임_규정과가이드라인사이에서_2026-09-15.md",
+    "date": "2026-09-15"
+  },
+  {
     "slug": "ideas-in-the-fridge",
     "title": "냉장고에 넣듯 아이디어를 저장하고 있었다",
     "project": "zero-waste",
