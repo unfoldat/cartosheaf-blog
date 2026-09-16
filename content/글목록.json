@@ -9,7 +9,21 @@
     ],
     "desc": "\"점자블록 양옆 30cm 여유 공간이 법으로 정해져 있다\"는 문장을 법령 원문까지 따라가 확인했다.",
     "file": "검증_점자블록30cm클레임_규정과가이드라인사이에서_2026-09-15.md",
-    "date": "2026-09-15"
+    "date": "2026-09-15",
+    "outputs": [
+      {
+        "label": "Fact-Checking Sample — 영문 최종본 (Verdict: False)",
+        "url": "../projects/tactile-paving-30cm.html"
+      },
+      {
+        "label": "Evidence Log — 근거 9건 + 신뢰도 평가",
+        "url": "../projects/tactile-paving-30cm-evidence.html"
+      },
+      {
+        "label": "조사 과정 기록 — 검색 경로와 막다른 길",
+        "url": "../projects/tactile-paving-30cm-process.html"
+      }
+    ]
   },
   {
     "slug": "ideas-in-the-fridge",
