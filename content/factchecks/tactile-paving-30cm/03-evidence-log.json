@@ -1,0 +1,110 @@
+[
+  {
+    "title": "장애인·노인·임산부 등의 편의증진 보장에 관한 법률 시행규칙 [별표 2] — 편의시설의 세부설치기준과 대상시설, 항목 \"바. 시각장애인용 유도블록\" (1)",
+    "org": "법제처 국가법령정보센터 (Ministry of Government Legislation, Korea Law Information Center) — enforcement rule under the Act on the Guarantee of Promotion of Convenience of Persons with Disabilities, the Aged, Pregnant Women, etc.",
+    "date": "Consolidated text retrieved 2026-09-15 (law.go.kr attachment, flSeq 86610217)",
+    "type": "Statute — 시행규칙 (Ministerial enforcement rule)",
+    "primacy": "Primary",
+    "passage": "\"시각장애인을 유도하기 위한 바닥재료는 유도용 선형블록과 감지용 점형블록을 사용한다. 이 경우 바닥재의 크기는 0.3미터×0.3미터이상의 블록을 사용하여야 한다.\" (The flooring used to guide visually impaired people is linear guide block and dot-type warning block; the block itself must be at least 0.3m x 0.3m.)",
+    "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=207760",
+    "stance": "contradicts",
+    "stance_label": "Contradicts",
+    "reliability": "High — read directly from the law.go.kr-hosted enforcement-rule attachment, primary legal text."
+  },
+  {
+    "title": "장애인·노인·임산부 등의 편의증진 보장에 관한 법률 시행규칙 [별표 2], 항목 \"바. 시각장애인용 유도블록\" (4)",
+    "org": "법제처 국가법령정보센터",
+    "date": "Consolidated text retrieved 2026-09-15",
+    "type": "Statute — 시행규칙",
+    "primacy": "Primary",
+    "passage": "\"점형블록은 굴절부, 단차부분, 위험장소의 0.3미터 전면에 부설하여야 한다.\" (Dot-type warning blocks must be laid 0.3m in front of turning points, level changes, and hazard locations — an installation offset in the direction of travel, not a lateral clearance.) The same rule (0.3m in front) is repeated elsewhere in the same 별표 for building entrances and low-service-counter fronts.",
+    "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=207760",
+    "stance": "contradicts",
+    "stance_label": "Contradicts",
+    "reliability": "High — primary legal text."
+  },
+  {
+    "title": "보행안전 및 편의증진에 관한 법률 시행규칙 [별표 1] — 보행안전 및 편의증진 시설의 구조 및 기준, 항목 11. 점자블록",
+    "org": "법제처 국가법령정보센터 — enforcement rule under the Pedestrian Safety and Convenience Promotion Act",
+    "date": "Consolidated text retrieved 2026-09-15 (law.go.kr attachment, flSeq 116980749)",
+    "type": "Statute — 시행규칙",
+    "primacy": "Primary",
+    "passage": "Item 11 defines only the tactile block's color (yellow, by default) and the functional purpose of point-type vs. linear blocks. No dimension, distance, or clearance figure of any kind appears in this item.",
+    "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=195271",
+    "stance": "contradicts",
+    "stance_label": "Contradicts",
+    "reliability": "High — primary legal text, read in full (4-page attachment)."
+  },
+  {
+    "title": "부록1. 점자블록 (설치 원칙 3)",
+    "org": "한국시각장애인연합회 (Korea Blind Union)",
+    "date": "Undated on the retrieved document",
+    "type": "Disability-organization technical guideline / installation-principle appendix",
+    "primacy": "Secondary",
+    "passage": "\"선형블록을 중심으로 좌,우 최소 60cm 부근에는 어떠한 장애물도 있어서는 아니 된다.\" (Centered on the linear block, no obstacle of any kind should exist within at least 60cm on either side.)",
+    "url": "http://www.kbufac.or.kr/Home/FAQ/Download?contentSeq=7&PreFix=file&Pos=1",
+    "stance": "contextualizes",
+    "stance_label": "Contextualizes",
+    "reliability": "Medium — a credentialed disability-advocacy technical document, but a guideline, not a binding legal source; confirms the concept of a both-sides clearance zone exists in Korean practice, but at 60cm, not 30cm."
+  },
+  {
+    "title": "선형블록 좌우 60cm 공간 확보로 시각장애인의 안전보장해야!",
+    "org": "시각장애인편의시설지원센터 (Support Center for Convenience Facilities for the Visually Impaired)",
+    "date": "2025-06-30",
+    "type": "News/advocacy article on organization's own site",
+    "primacy": "Secondary",
+    "passage": "\"선형 블록 외곽선으로부터 최소 60cm 이내에는 어떠한 장애물도 존재해서는 안 된다\" — explicitly framed by the source itself as a recommendation in the Center's own manual, derived by combining the statute's 0.3m pre-hazard offset rule with a separate vehicle-bollard-spacing rule, not as a quotation of existing law.",
+    "url": "http://m.kbufac.or.kr/Board/News/View/3217",
+    "stance": "contradicts",
+    "stance_label": "Contradicts claim's \"regulation\" framing",
+    "reliability": "High for what it demonstrates: that a 60cm (not 30cm) both-sides figure circulates as an advocacy recommendation explicitly derived from, but not equal to, the statutory 30cm pre-hazard offset — a plausible origin for the conflation in the tested claim."
+  },
+  {
+    "title": "시각장애인 편의시설 설치기준 및 해설",
+    "org": "한국시각장애인복지관 (Korea Welfare Center for the Blind)",
+    "date": "Undated on the retrieved page",
+    "type": "Disability-organization explainer/commentary",
+    "primacy": "Secondary",
+    "passage": "Automated text extraction of this page returned corrupted encoding; the recoverable fragment appears to reference approximately \"30cm of flexible clearance from the edge of the tactile block,\" but the exact wording and surrounding context could not be confirmed with confidence in this pass.",
+    "url": "http://www.hsb.or.kr/client/visually/visually4_3.asp",
+    "stance": "inconclusive",
+    "stance_label": "Inconclusive (unverified)",
+    "reliability": "Low — encoding failure prevented a reliable reading; flagged for manual re-verification rather than used as evidence for or against the claim."
+  },
+  {
+    "title": "도로안전시설 설치 및 관리지침 — 장애인 안전시설 (행정규칙)",
+    "org": "국토교통부 (Ministry of Land, Infrastructure and Transport)",
+    "date": "Originally 2000; administrative-rule registry entry found, revision not confirmed",
+    "type": "Government administrative guideline (행정규칙) — not a statute, but ministry-issued",
+    "primacy": "Primary (if content could be confirmed)",
+    "passage": "Not retrieved. Repeated attempts to download the PDF (via codil.or.kr, the Construction/transport document archive) failed with connection resets; a WebFetch attempt was also blocked by the target site's robots.txt. Logged as an inconclusive, unresolved search — this is the single most likely government document to contain an authoritative clearance figure if one exists beyond what the two statutes above specify.",
+    "url": "https://www.law.go.kr/admRulInfoP.do?admRulSeq=2100000000833",
+    "stance": "inconclusive",
+    "stance_label": "Not retrieved",
+    "reliability": "Unknown — access failed; not used as evidence."
+  },
+  {
+    "title": "보도공사 설계시공 매뉴얼(ver2.0) 및 보도공사 상세설계 표준도",
+    "org": "서울시설공단 (Seoul Facilities Corporation, public institution) / 서울특별시",
+    "date": "Manual release covered in a Seoul city news article; PDF publication date not confirmed",
+    "type": "Local government / public institution design guideline",
+    "primacy": "Secondary (design guideline, not law)",
+    "passage": "Not retrieved — the manual and its detailed design standard drawings are distributed as downloadable PDFs that could not be fetched with the tools available in this pass. The city's own news coverage of the manual's release describes improved tactile-block continuity at driveways and traffic islands but states no specific clearance figure.",
+    "url": "https://www.sisul.or.kr/open_content/safety/bbs/bbsMsgDetail.do?msg_seq=16&bcd=knowhow",
+    "stance": "inconclusive",
+    "stance_label": "Not retrieved",
+    "reliability": "Unknown — access failed; not used as evidence. Flagged as the most likely place a literal sidewalk-cross-section clearance dimension would appear, if one is codified anywhere in Seoul practice."
+  },
+  {
+    "title": "KS F 4561 (시각장애인용 점자블록) — Korean Industrial Standard",
+    "org": "국가기술표준원 / 한국표준정보망 (Korean Agency for Technology and Standards)",
+    "date": "Registry entry located; standard text not retrieved",
+    "type": "National technical standard",
+    "primacy": "Primary (if content could be confirmed)",
+    "passage": "Not retrieved in full. Based on its title and public registry scope, KS F 4561 governs the tactile block product itself (dot pattern, dimensions, slip resistance, durability), which is consistent with the block-size figure already confirmed in the statute, but this could not be independently verified against the standard's full text in this pass.",
+    "url": "https://standard.go.kr/KSCI/standardIntro/getStandardSearchView.do?menuId=919&topMenuId=502&upperMenuId=503&ksNo=KSF4561&tmprKsNo=KSF4561&reformNo=09",
+    "stance": "inconclusive",
+    "stance_label": "Not retrieved",
+    "reliability": "Unknown — access not completed; not used as evidence."
+  }
+]
